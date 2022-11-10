@@ -10,16 +10,6 @@ body {
   position: relative;
 }
 
-.carousel__btn {
-  opacity: 0;
-}
-
-.carousel__item,
-.carousel__btn:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
 .carousel .carousel__item,
 .carousel .carousel__item--hidden {
   display: none;

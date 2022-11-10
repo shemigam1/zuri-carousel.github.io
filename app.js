@@ -41,3 +41,14 @@ function moveToPrevSlide() {
 
   updateSlidePosition();
 }
+
+let showBtn = document.querySelector(".carousel");
+showBtn.addEventListener("mouseenter", show);
+function show() {
+  document.getElementById("carousel__button--prev").style.display = "inline";
+  document.getElementById("carousel__button--next").style.display = "inline";
+}
+showBtn.addEventListener("mouseleave", function () {
+  document.getElementById("carousel__button--prev").style.display = "none";
+  document.getElementById("carousel__button--next").style.display = "none";
+});
