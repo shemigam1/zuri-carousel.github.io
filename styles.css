@@ -1,7 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel {
   overflow: hidden;
   max-width: 600px;
   position: relative;
+}
+
+.carousel__btn {
+  opacity: 0;
+}
+
+.carousel__item,
+.carousel__btn:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .carousel .carousel__item,
